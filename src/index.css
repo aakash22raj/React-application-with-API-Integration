@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-os {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.transition_common {
+  transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.header-bg {
+  background: url("./assets/svg/angle.svg") right bottom no-repeat,
+    linear-gradient(
+      74.71deg,
+      #feddee 0%,
+      #fcf6fc 31.77%,
+      #c5eaed 64.58%,
+      #fdddfe 100%
+    );
+}
+
+.joinus-bg {
+  background: url("./assets/svg/wave.svg") right bottom no-repeat,
+    linear-gradient(to right, #fafbfc, #fafbfc);
+}
+
+.joinus-box-bg {
+  background: linear-gradient(95.64deg, #0076ce 0%, #9400d3 100%);
+}
+
+.footer-bg {
+  background: linear-gradient(95.74deg, #0076ce -7.82%, #9400d3 143.96%);
+}
+
+.common_shadow {
+  box-shadow: 2px 4px 15px 0px #8585a740;
+}
